@@ -8,10 +8,10 @@ public class NewBehaviourScript : MonoBehaviour {
     [DllImport("cppDll")]
     private static extern int cpp_get_int_value();
 
-    [DllImport("cppDll")]
+    [DllImport("cppDll2")]
     private static extern void cpp_get_int_ptr(ref int value);
 
-    [DllImport("cppDll")]
+    [DllImport("cppDll3")]
     private static extern void cpp_get_int_ref(ref int value);
 
 
