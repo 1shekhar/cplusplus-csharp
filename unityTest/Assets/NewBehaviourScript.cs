@@ -6,7 +6,7 @@ using System;
 
 public class NewBehaviourScript : MonoBehaviour {
     [DllImport("cppDll")]
-    private static extern int cpp_get_int_value();
+    private static extern int cpp_get_int_value(); 
 
     [DllImport("cppDll23")]
     private static extern void cpp_get_int_ptr(ref int value);
